@@ -1,0 +1,28 @@
+{
+	"name": "reportbox-be",
+	"author": "Himanshu Khade",
+	"version": "0.0.0",
+	"private": true,
+	"main": "app.js",
+	"scripts": {
+		"start": "node app",
+		"dev": "nodemon app"
+	},
+	"type": "commonjs",
+	"dependencies": {
+		"cloudinary": "^2.7.0",
+		"cookie-parser": "~1.4.4",
+		"cors": "^2.8.5",
+		"debug": "~2.6.9",
+		"dotenv": "^17.2.1",
+		"express": "~4.16.1",
+		"http-errors": "~1.6.3",
+		"mongoose": "^8.17.0",
+		"morgan": "~1.9.1",
+		"multer": "^2.0.2",
+		"nodemailer": "^7.0.5",
+		"nodemon": "^3.1.10",
+		"otp-generator": "^4.0.1",
+		"stream": "^0.0.3"
+	}
+}
